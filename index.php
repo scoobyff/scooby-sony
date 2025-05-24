@@ -15,7 +15,7 @@ $mpdUrl = 'https://sonydaimenew.akamaized.net/hls/live/' . $get;
 // Set headers for fetching remote
 $mpdheads = [
   'http' => [
-            'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\n",
+            'header' => "User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
       'follow_location' => 1,
       'timeout' => 5
   ]
