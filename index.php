@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 $get = $_GET['get'];
-$mpdUrl = 'https://sonydaimenew.akamaized.net/hls/live/' . $get;
+$mpdUrl = 'https://pubads.g.doubleclick.net/' . $get;
 
 // Set headers for fetching remote
 $mpdheads = [
